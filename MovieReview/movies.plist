@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>movieTitle</key>
+		<string>Batman v Superman</string>
+		<key>ratingAndDuration</key>
+		<string>PG-13, 2 hr 31 min</string>
+		<key>directedBy</key>
+		<string>Zack Snyder</string>
+		<key>cast</key>
+		<string>Ben Affleck, Henry Cavill, Amy Adams</string>
+		<key>synopsis</key>
+		<string>Mankind faces a new threat as Batman (Ben Affleck) embarks on a personal vendetta against Superman (Henry Cavill).</string>
+		<key>userRating</key>
+		<integer>4</integer>
+		<key>thumbnailName</key>
+		<string>batman-v-superman</string>
+	</dict>
+	<dict>
+		<key>movieTitle</key>
+		<string>Zootopia</string>
+		<key>ratingAndDuration</key>
+		<string>PG, 1 hr 48 min</string>
+		<key>directedBy</key>
+		<string>Rich Moore, Byron Howard</string>
+		<key>cast</key>
+		<string>Ginnifer Goodwin, Jason Bateman, Idris Elba</string>
+		<key>synopsis</key>
+		<string>The modern mammal metropolis of Zootopia is a city like no other. Comprised of habitat neighborhoods like ritzy Sahara Square and frigid Tundratown, it’s a melting pot where animals from every environment live together.</string>
+		<key>userRating</key>
+		<integer>5</integer>
+		<key>thumbnailName</key>
+		<string>zootopia</string>
+	</dict>
+	<dict>
+		<key>movieTitle</key>
+		<string>Whiskey Tango Foxtrot</string>
+		<key>ratingAndDuration</key>
+		<string>R, 1 hr 52 min</string>
+		<key>directedBy</key>
+		<string>John Requa, Glenn Ficarra</string>
+		<key>cast</key>
+		<string>Tina Fey, Margot Robbie, Martin Freeman</string>
+		<key>synopsis</key>
+		<string>When reporter Kim Baker’s (Tina Fey) life needs something more, she decides to &apos;shake it all up’ by taking an assignment in a war zone.</string>
+		<key>userRating</key>
+		<integer>4</integer>
+		<key>thumbnailName</key>
+		<string>whiskey-tango-foxtrot</string>
+	</dict>
+</array>
+</plist>
