@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MovieViewController: ViewController {
+class MovieViewController: UIViewController {
 
     var movie: Movie!
 
@@ -32,7 +32,7 @@ class MovieViewController: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "Movie"
+        title = ""
 
         movieTitleLabel.text = movie.movieTitle
         ratingAndDurationLabel.text = movie.ratingAndDuration
@@ -44,10 +44,8 @@ class MovieViewController: ViewController {
         updateSynopsisViews(hideSynopsis: shouldHideSynopsisSetting, animated: false)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+
+    // MARK: - Show Or Hide Button
 
     @IBAction func synopsisHideOrShowButtonTapped(sender: UIButton) {
         let shouldHideSynopsis = sender.titleLabel!.text! == "Hide"
@@ -67,15 +65,5 @@ class MovieViewController: ViewController {
             synopsisLabel.hidden = shouldHideSynopsis
         }
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
